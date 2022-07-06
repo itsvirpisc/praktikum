@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+body{
+    background-color: aliceblue;
+}
+.navbar{
+    display: flex;
+}
+.navbar ul li {
+    list-style-type: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 500;
+}
+
+.header{
+    text-align: center;
+}
+.header h1{
+    position: absolute;
+    bottom: 9cm;
+    right: 11cm;
+    letter-spacing: 10px;
+    font-family: 'Comfortaa';
+    font-weight: bold;
+}
+.header p{
+    position: absolute;
+    bottom: 2cm;
+    padding: 5cm;
+    font-family: 'Quicksand';
+    font-weight: 500;
+}
+.img{   
+    position: relative;
+    background-image: url(../Image/BG.png);
+    height: 20cm;
+    width: 36.45cm;
+    bottom: 60px;
+    right: 1cm;
+    z-index: -1;
+}
+
+.img2{
+    background-image: url(../Image/BI.png);
+    height: 10cm;
+    width: 30cm;
+    position: relative;
+    left: 2.5cm;
+    bottom: 1.59cm;
+}
+.card2{
+    position: absolute;
+    top: 20cm;
+    right: 5px;
+    left: 3cm;
+}
+.card2 h3{
+    font-family: 'Comfortaa';
+    font-weight: bold;
+    font-size: 32px;
+}
+.card2 p{
+    position: absolute;
+    top: 60px;
+    font-family: 'Quicksand';
+    font-weight: 600;
+}
+.card2 ol{
+    position: absolute;
+    top: 4cm;
+    font-family: 'Quicksand';
+    font-size: 24;
+    font-weight: 600;
+    line-height: 2;
+}
+
+.img3{
+    background-image: url(../Image/BC.png);
+    height: 10cm;
+    width: 41.49cm;
+    position: relative;
+    right: 6cm;
+    bottom: 1.59cm;
+}
+.card3{
+    position: absolute;
+    top: 30cm;
+}
+.card3 h3{
+    font-family: 'Comfortaa';
+    font-weight: bold;
+    font-size: 32px;
+}
+table{
+    font-family: 'Quicksand';
+    font-weight: 600;
+}
+.register{
+    position: absolute;
+    top: 38.3cm;
+    left: 15cm;
+}
+
+.side-1{
+    position: absolute;
+    top: 41cm;
+}
+.side-1 p{
+    margin-left: 700px;
+    position: relative;
+    right: 18cm;
+}
+.side-2{
+    position: absolute;
+    top: 41cm;
+    left: 20cm;
+}
+
+footer{
+    background-color: rgb(255, 166, 0);
+    position: relative;
+    top: 30cm;
+    padding: 3px;
+    text-align: center;
+}
+.card-5{
+    text-align: center;
+}
